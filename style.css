@@ -1,0 +1,151 @@
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, sans-serif;
+  padding-top: 0rem;
+  
+  /* Page Background */
+  background-image: url("your_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* General Classes */
+
+/* Centered Text Class */
+.centered {
+  text-align: center;
+}
+
+/* Logo Image Class */
+.logo {
+  height: 64px;
+}
+
+/* Gap Class */
+.spacer {
+  margin-bottom: 0.5rem;
+}
+
+/* Line Seperator Class */
+.seperator {
+  outline: 0.1rem solid white;
+  margin: 0.5rem 0.5rem;
+}
+
+.fitImg {
+  object-fit: contain;
+  width: 100%;
+}
+
+/* Main Content Box Class */
+.contentMain {
+  display: flex;
+  flex-direction: column;
+  
+  width: 80%;
+  max-width: 80rem;
+  
+  margin: 0 auto;
+  padding: 0.5rem;
+  gap: 0.5rem;
+  
+  /* Content Background */
+  border: 0.125rem solid white;
+  background-image: url("your_image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.itemMain {
+  /*border: 0.125rem solid blue;*/
+}
+
+/* Header Title Class */
+.headerTitle {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  gap: 1rem;
+  padding: 0.25rem 0.5rem;
+  margin: 0.25rem;
+  
+  list-style: none;
+  /*border: 0.125rem solid green;*/
+}
+
+.headerTitle li {
+  padding: 0;
+  margin: 0;
+  /*border: 0.125rem solid purple;*/
+}
+
+.headerTitle h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.headerTitle h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* Header Bar Formatter Class */
+.headerBar {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  list-style: none;
+}
+
+/* Dropdown Formatter Class */
+.dropDown {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1;
+  
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  list-style: square;
+}
+
+/* Navigation Link Class */
+.navLinks {
+  padding: 0;
+  margin: 0;
+  
+  border: 0.125rem solid white;
+  background-color: black;
+  /*border: 0.125rem solid green;*/
+}
+
+.navLinks li {
+  padding: 0.5rem 1rem;
+  border: 0.125rem solid white;
+  background-color: black;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: white;
+}
+
+.navLinks a:hover {
+  color: gray;
+}
+
+
